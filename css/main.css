@@ -1,0 +1,77 @@
+body {
+    font-size: 16px;
+    color: #00163f;
+    line-height: 24px;
+    background-color: rgba(58,255,49,0.2);
+}
+
+.navbar {
+    background-color: #1b2134;
+}
+
+
+.img-home {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.container {
+    margin-top: 80px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home {
+    width: 300px;
+    background-color: white;
+    margin: 0 10px 0 10px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-home {
+    height: 130px;
+    text-align: center;
+
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+}
+
+
+.col-md-3 h3 {
+    text-underline: black;
+}
+
+.row-striped:nth-of-type(odd){
+    background-color: rgba(58,255,49,0.2);
+}
+
+.row-striped:nth-of-type(even){
+    background-color: #ffffff;
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    background-image: url("../img/header.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #ffab16;
+}
+
+.text-header {
+    padding: 30px 80px 30px 80px;
+    background-color: rgba(0,0,0,0.3);
+}
